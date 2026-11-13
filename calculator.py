@@ -25,7 +25,7 @@ def logarithm(a, b):
         raise ValueError("Invalid base")
     if b <= 0:
         raise ValueError("Invalid argument")
-    return math.log(b, a)# use math library/raise ValueError
+    return math.log(b, a)
 
 def exponent(a, b):
     return a ** b
